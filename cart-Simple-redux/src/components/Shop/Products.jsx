@@ -8,14 +8,20 @@ const Products = (props) => {
       id:1,
       title : "Test C1" ,
       price : 10 ,
-      description : "best of us 1",
+      description : "JUST TRY MY CART- 1 🛒👌",
     } ,
     {
       id:2,
       title : "Test C2" ,
       price : 15 ,
-      description : "best of us 2"
+      description : "JUST TRY MY CART- 2 🛒👌"
     } ,
+    {
+      id:3,
+      title : "Test C3" ,
+      price : 12.5 ,
+      description : "JUST TRY MY CART- 3 🛒👌",
+    } 
 ]
 
 const Items = useSelector( (state)=> state.cartSlice.items); 
